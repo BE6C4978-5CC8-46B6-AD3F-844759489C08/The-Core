@@ -9,6 +9,7 @@ function core:Load(saved)
 
 	for int, array in pairs(saved) do
 		local part = Instance.new('Part', malevolence)
+
 		for index, value in next, {'BrickColor', 'Anchored', 'CanCollide', 'Shape', 'FormFactor', 'Size', 'CFrame', 'BackSurface', 'BottomSurface', 'FrontSurface', 'LeftSurface', 'RightSurface', 'TopSurface'} do
 			part[value] = array[value]
 		end
@@ -28,6 +29,7 @@ function core:Save(searched)
 			savedParts[int][value] = part[value]
 		end
 	end
+
 	core:Load(savedParts)
 end
 
@@ -40,7 +42,6 @@ function core:Search(object)
 	local selected = {}
 
 	for index, object in pairs(selection) do
-		
 		if object:IsA('Part') then
 			table.insert(selected, object)
 		elseif object:IsA('Model') then
