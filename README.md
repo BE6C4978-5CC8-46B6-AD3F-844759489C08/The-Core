@@ -1,8 +1,6 @@
 #The Core
-========
 
 ##Malevolence.lua
-========
 
 A poorly made 'copy and paste' sort of script.
 Currently supports the copying (and pasting!) of these parts of blocks:
@@ -12,7 +10,6 @@ Currently supports the copying (and pasting!) of these parts of blocks:
 > Current Build: *0.0.2*
 
 ##Enigmatic.lua
-========
 
 A poorly made String-to-Array and Array-to-String script.
 
@@ -20,7 +17,6 @@ A poorly made String-to-Array and Array-to-String script.
 
 
 ###Standards
-========
 
 Indentation type: *Spaces*
 Indentation size: *2*
