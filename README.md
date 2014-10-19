@@ -19,7 +19,9 @@ A poorly made String-to-Array and Array-to-String script.
 ###Standards
 
 Indentation type: *Spaces*
+
 Indentation size: *2*
+
 Wrap Style      : *Soft*
 
 Code: *Shit* to *usable*.
